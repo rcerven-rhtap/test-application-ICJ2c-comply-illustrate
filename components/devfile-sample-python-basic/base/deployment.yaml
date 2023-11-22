@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: quay.io/rcerven_rhtaptest/rcerven/test-application/devfile-sample-python-basic@sha256:6a0fb21b59316d12c899920fee202d100e6ef62ace989913f7f95ac65aa002f7
+      - image: quay.io/rcerven_rhtaptest/rcerven/test-application/devfile-sample-python-basic@sha256:00450c717f82c18115ed14df7ad569db6c364c1b01c523bbc7168264a1d3e680
         name: my-python
         ports:
         - containerPort: 8081
